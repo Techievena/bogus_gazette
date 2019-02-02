@@ -1,5 +1,5 @@
 
-import { Table, Container, Button } from 'reactstrap';
+import { Table, Container, Button, Media } from 'reactstrap';
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import AppNavbar from './AppNavbar';
@@ -7,6 +7,7 @@ import './App.css';
 import web3 from './web3';
 import ipfs from './ipfs';
 import storehash from './storehash';
+import logo from './logo.svg';
 
 class Read extends Component {
 
@@ -100,6 +101,42 @@ class Read extends Component {
         <Container>
           <h3> Top Headlines </h3>
 
+          <hr/>
+          <Media>
+        <Media left top href="#">
+          <Media object data-src={logo} alt="Generic placeholder image" />
+        </Media>
+        <Media body>
+          <Media heading>
+            News #1
+          </Media>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </Media>
+      </Media>
+      <hr/>
+      <Media className="mt-1">
+        <Media left middle href="#">
+          <Media object data-src={logo} alt="Generic placeholder image" />
+        </Media>
+        <Media body>
+          <Media heading>
+            News #2
+          </Media>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </Media>
+      </Media>
+      <hr/>
+      <Media className="mt-1">
+        <Media left bottom href="#">
+          <Media object data-src={logo} alt="Generic placeholder image" />
+        </Media>
+        <Media body>
+          <Media heading>
+            News #3
+          </Media>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </Media>
+      </Media>
           <hr/>
             <Button onClick = {this.onClick}> Get Source </Button>
 
