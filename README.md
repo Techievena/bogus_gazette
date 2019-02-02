@@ -1,2 +1,4 @@
-# bogus_gazette
-Bogus Gazette - A fake news recognition system
+# Bogus Gazette
+A blockchain based fake news recognition system connecting readers, journalists and editors.
+
+

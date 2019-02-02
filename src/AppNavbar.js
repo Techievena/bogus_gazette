@@ -30,7 +30,7 @@ export default class AppNavbar extends Component {
               href="https://github.com/mr-yamraj">@mr-yamraj</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="https://github.com/Techievena/open-iit-blockchain">GitHub</NavLink>
+            <NavLink href="https://github.com/Techievena/bogus_gazette">GitHub</NavLink>
           </NavItem>
         </Nav>
       </Collapse>
